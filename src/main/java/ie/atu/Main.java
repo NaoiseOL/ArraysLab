@@ -19,22 +19,12 @@ public class Main {
         anArray[7] = 800;
         anArray[8] = 900;
         anArray[9] = 1000;
-
-        System.out.println("Element at index 0: "+ anArray[0]);
-        System.out.println("Element at index 1: "+ anArray[1]);
-        System.out.println("Element at index 2: "+ anArray[2]);
-        System.out.println("Element at index 3: "+ anArray[3]);
-        System.out.println("Element at index 4: "+ anArray[4]);
-        System.out.println("Element at index 5: "+ anArray[5]);
-        System.out.println("Element at index 6: "+ anArray[6]);
-        System.out.println("Element at index 7: "+ anArray[7]);
-        System.out.println("Element at index 8: "+ anArray[8]);
-        System.out.println("Element at index 9: "+ anArray[9]);
-
-        System.out.println("Please enter a value for index 10");
+        System.out.println("Please enter a value");
         Scanner scanner = new Scanner(System.in);
         anArray[10] = scanner.nextInt();
-        System.out.println("Element at index 10: "+ anArray[10]);
 
+        for(int i = 0;i<11;i++){
+            System.out.println("Element at index "+i + ": " + anArray[i]);
+        }
     }
 }
