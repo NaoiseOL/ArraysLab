@@ -31,5 +31,10 @@ public class Main {
         System.out.println("Element at index 8: "+ anArray[8]);
         System.out.println("Element at index 9: "+ anArray[9]);
 
+        System.out.println("Please enter a value for index 10");
+        Scanner scanner = new Scanner(System.in);
+        anArray[10] = scanner.nextInt();
+        System.out.println("Element at index 10: "+ anArray[10]);
+
     }
 }
